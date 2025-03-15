@@ -11,8 +11,8 @@ async function bootstrap() {
 
   const allowedOrigins = [
     'http://localhost:4200', // Angular dev URL
-    'http://localhost:3000', // Angular dev URL
-    'http://localhost:5173',
+    'http://localhost:3000', // Swagger UI
+    'http://localhost:5173', // React dev URL
     // 'https://example.com',    // Future prod endpoint
   ];
 
