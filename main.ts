@@ -18,7 +18,7 @@ async function bootstrap() {
 
   // Swagger configuration
   const config = new DocumentBuilder()
-    .setTitle('Angular CRUD Project API')
+    .setTitle('NestJs CRUD Project API')
     .setDescription('API for managing car and brand endpoints')
     .setVersion('1.0')
     .addBearerAuth()
